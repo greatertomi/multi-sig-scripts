@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. env.example
+. ./env
 
 KEYHASH1=$(cardano-cli address key-hash --payment-verification-key-file "${WALLET_PATH}/payment1.vkey")
 KEYHASH2=$(cardano-cli address key-hash --payment-verification-key-file "${WALLET_PATH}/payment2.vkey")

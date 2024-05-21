@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. env.example
+. ./env
 
 for i in {1..3}
 

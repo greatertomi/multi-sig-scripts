@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. env.example
+. ./env
 
 # This does not work
 

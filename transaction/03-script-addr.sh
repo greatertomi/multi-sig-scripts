@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. env.example
+. ./env
 
 cardano-cli address build \
 --payment-script-file "${WALLET_PATH}/policy.script" \

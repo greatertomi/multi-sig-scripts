@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. env.example
+. ./env
 
 cardano-cli transaction sign \
 --signing-key-file "${WALLET_PATH}/payment1.skey" \

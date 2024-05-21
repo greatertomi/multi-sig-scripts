@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. env.example
+. ./env
 
 ADDRESS=$(cat ${WALLET_PATH}/script.addr)
 RECEIVER=$(cat ${WALLET_PATH}/receiving.addr)

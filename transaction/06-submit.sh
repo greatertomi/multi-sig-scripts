@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. env.example
+. ./env
 
 cardano-cli transaction submit \
 --tx-file ${WALLET_PATH}/tx.signed \
