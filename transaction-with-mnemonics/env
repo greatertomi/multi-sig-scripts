@@ -1,0 +1,2 @@
+WALLET_PATH="../refinedlv2"
+NETWORK="--testnet-magic 2"
